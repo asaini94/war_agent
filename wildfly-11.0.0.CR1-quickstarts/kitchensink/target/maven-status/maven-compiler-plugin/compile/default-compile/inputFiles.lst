@@ -1,0 +1,8 @@
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/MemberResourceRESTService.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/service/MemberRegistration.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/model/Member.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberRepository.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/JaxRsActivator.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/controller/MemberController.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberListProducer.java
+/home/user/Desktop/Syscop/backend/agent/wildfly-11.0.0.CR1-quickstarts/kitchensink/src/main/java/org/jboss/as/quickstarts/kitchensink/util/Resources.java

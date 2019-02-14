@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.5.2
+Built-By: user
+Build-Jdk: 11.0.2
+Specification-Title: WildFly Quickstart: kitchensink
+Specification-Version: 11.0
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: WildFly Quickstart: kitchensink
+Implementation-Version: 11.0.0.CR1
+Implementation-Vendor-Id: org.wildfly.quickstarts
+Implementation-Vendor: JBoss by Red Hat
+Implementation-URL: http://www.jboss.org/jdf/quickstarts/get-started/kit
+ chensink/
+Java-Vendor: Oracle Corporation
+Java-Version: 11.0.2
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 4.15.0-29-generic
+Scm-Connection: scm:git:git@github.com:jboss/jboss-parent-pom.git/quicks
+ tart-parent/kitchensink
+Scm-Revision: UNKNOWN
+Scm-Url: http://github.com/jboss/jboss-parent-pom/quickstart-parent/kitc
+ hensink
+

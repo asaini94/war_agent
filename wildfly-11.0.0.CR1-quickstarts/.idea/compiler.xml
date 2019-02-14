@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for WildFly Quickstart: Parent" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-client-client-simple" />
+        <module name="app-client-ear" />
+        <module name="app-client-ejb" />
+        <module name="ejb-asynchronous-client" />
+        <module name="ejb-asynchronous-ejb" />
+        <module name="ejb-in-ear-ear" />
+        <module name="ejb-in-ear-ejb" />
+        <module name="ejb-in-ear-web" />
+        <module name="ejb-multi-server-app-web" />
+        <module name="ejb-multi-server-client" />
+        <module name="ejb-remote-client" />
+        <module name="ejb-remote-server-side" />
+        <module name="ejb-throws-exception-ear" />
+        <module name="ejb-throws-exception-ejb" />
+        <module name="ejb-throws-exception-ejb-api" />
+        <module name="ejb-throws-exception-web" />
+        <module name="ha-singleton-service-primary-only" />
+        <module name="ha-singleton-service-with-backups" />
+        <module name="helloworld-mbean-service" />
+        <module name="helloworld-mbean-webapp" />
+        <module name="inter-app-appA" />
+        <module name="inter-app-appB" />
+        <module name="inter-app-shared" />
+        <module name="jaxws-addressing-client" />
+        <module name="jaxws-addressing-service" />
+        <module name="jaxws-ejb-client" />
+        <module name="jaxws-ejb-service" />
+        <module name="jaxws-pojo-client" />
+        <module name="jaxws-pojo-service" />
+        <module name="jaxws-retail-client" />
+        <module name="jaxws-retail-service" />
+        <module name="jts-application-component-1" />
+        <module name="jts-application-component-2" />
+        <module name="kitchensink-ear-ear" />
+        <module name="kitchensink-ear-ejb" />
+        <module name="kitchensink-ear-web" />
+        <module name="kitchensink-ml-ear-ear" />
+        <module name="kitchensink-ml-ear-ejb" />
+        <module name="kitchensink-ml-ear-web" />
+        <module name="shopping-cart-client" />
+        <module name="shopping-cart-server" />
+        <module name="wildfly-wicket-ear-ear" />
+        <module name="wildfly-wicket-ear-ejb" />
+        <module name="wildfly-wicket-ear-war" />
+      </profile>
+      <profile name="Annotation profile for batch-processing" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="batch-processing" />
+      </profile>
+      <profile name="Annotation profile for bean-validation" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bean-validation" />
+      </profile>
+      <profile name="Annotation profile for bean-validation-custom-constraint" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bean-validation-custom-constraint" />
+      </profile>
+      <profile name="Annotation profile for bmt" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bmt" />
+      </profile>
+      <profile name="Annotation profile for cdi-alternative" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-alternative" />
+      </profile>
+      <profile name="Annotation profile for cdi-decorator" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-decorator" />
+      </profile>
+      <profile name="Annotation profile for cdi-injection" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-injection" />
+      </profile>
+      <profile name="Annotation profile for cdi-interceptors" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-interceptors" />
+      </profile>
+      <profile name="Annotation profile for cdi-portable-extension" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-portable-extension" />
+      </profile>
+      <profile name="Annotation profile for cdi-stereotype" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-stereotype" />
+      </profile>
+      <profile name="Annotation profile for cdi-veto" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-veto" />
+      </profile>
+      <profile name="Annotation profile for cmt" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cmt" />
+      </profile>
+      <profile name="Annotation profile for contacts-jquerymobile" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="contacts-jquerymobile" />
+      </profile>
+      <profile name="Annotation profile for wildfly-deltaspike-authorization" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-deltaspike-authorization" />
+      </profile>
+      <profile name="Annotation profile for wildfly-deltaspike-beanbuilder" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-deltaspike-beanbuilder" />
+      </profile>
+      <profile name="Annotation profile for wildfly-deltaspike-projectstage" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-deltaspike-projectstage" />
+      </profile>
+      <profile name="Annotation profile for ejb-in-war" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-in-war" />
+      </profile>
+      <profile name="Annotation profile for ejb-security" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-security" />
+      </profile>
+      <profile name="Annotation profile for ejb-security-context-propagation" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-security-context-propagation" />
+      </profile>
+      <profile name="Annotation profile for ejb-security-interceptors" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-security-interceptors" />
+      </profile>
+      <profile name="Annotation profile for ejb-security-jaas" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-security-jaas" />
+      </profile>
+      <profile name="Annotation profile for ejb-security-programmatic-auth" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-security-programmatic-auth" />
+      </profile>
+      <profile name="Annotation profile for ejb-timer" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-timer" />
+      </profile>
+      <profile name="Annotation profile for greeter" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="greeter" />
+      </profile>
+      <profile name="Annotation profile for ha-singleton-deployment" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ha-singleton-deployment" />
+      </profile>
+      <profile name="Annotation profile for helloworld" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld" />
+      </profile>
+      <profile name="Annotation profile for wildfly-helloworld-classfiletransformers" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-helloworld-classfiletransformers" />
+      </profile>
+      <profile name="Annotation profile for helloworld-html5" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-html5" />
+      </profile>
+      <profile name="Annotation profile for helloworld-jms" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-jms" />
+      </profile>
+      <profile name="Annotation profile for helloworld-mdb" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-mdb" />
+      </profile>
+      <profile name="Annotation profile for helloworld-mdb-propertysubstitution" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-mdb-propertysubstitution" />
+      </profile>
+      <profile name="Annotation profile for helloworld-mutual-ssl" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-mutual-ssl" />
+      </profile>
+      <profile name="Annotation profile for helloworld-mutual-ssl-secured" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-mutual-ssl-secured" />
+      </profile>
+      <profile name="Annotation profile for wildfly-helloworld-rf" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-helloworld-rf" />
+      </profile>
+      <profile name="Annotation profile for helloworld-rs" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-rs" />
+      </profile>
+      <profile name="Annotation profile for helloworld-singleton" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-singleton" />
+      </profile>
+      <profile name="Annotation profile for helloworld-ssl" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-ssl" />
+      </profile>
+      <profile name="Annotation profile for helloworld-ws" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloworld-ws" />
+      </profile>
+      <profile name="Annotation profile for wildfly-hibernate4" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wildfly-hibernate4" />
+      </profile>
+      <profile name="Annotation profile for hibernate" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hibernate" />
+      </profile>
+      <profile name="Annotation profile for jaxrs-client" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jaxrs-client" />
+      </profile>
+      <profile name="Annotation profile for jsonp" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jsonp" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-angularjs" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-angularjs" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-html5-mobile" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-html5-mobile" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-jsp" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-jsp" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-ml" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-ml" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-utjs-angularjs" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-utjs-angularjs" />
+      </profile>
+      <profile name="Annotation profile for kitchensink-utjs-mustache" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink-utjs-mustache" />
+      </profile>
+      <profile name="Annotation profile for jboss-logging" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jboss-logging" />
+      </profile>
+      <profile name="Annotation profile for logging-tools" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logging-tools" />
+      </profile>
+      <profile name="Annotation profile for mail" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mail" />
+      </profile>
+      <profile name="Annotation profile for managed-executor-service" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="managed-executor-service" />
+      </profile>
+      <profile name="Annotation profile for numberguess" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="numberguess" />
+      </profile>
+      <profile name="Annotation profile for payment-cdi-event" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment-cdi-event" />
+      </profile>
+      <profile name="Annotation profile for resteasy-jaxrs-client" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="resteasy-jaxrs-client" />
+      </profile>
+      <profile name="Annotation profile for servlet-async" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servlet-async" />
+      </profile>
+      <profile name="Annotation profile for servlet-filterlistener" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servlet-filterlistener" />
+      </profile>
+      <profile name="Annotation profile for servlet-security" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servlet-security" />
+      </profile>
+      <profile name="Annotation profile for shrinkwrap-resolver" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shrinkwrap-resolver" />
+      </profile>
+      <profile name="Annotation profile for spring-greeter" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-greeter" />
+      </profile>
+      <profile name="Annotation profile for spring-kitchensink-asyncrequestmapping" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-kitchensink-asyncrequestmapping" />
+      </profile>
+      <profile name="Annotation profile for spring-kitchensink-basic" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-kitchensink-basic" />
+      </profile>
+      <profile name="Annotation profile for spring-kitchensink-controlleradvice" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-kitchensink-controlleradvice" />
+      </profile>
+      <profile name="Annotation profile for spring-kitchensink-matrixvariables" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-kitchensink-matrixvariables" />
+      </profile>
+      <profile name="Annotation profile for spring-kitchensink-springmvctest" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-kitchensink-springmvctest" />
+      </profile>
+      <profile name="Annotation profile for spring-petclinic" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-petclinic" />
+      </profile>
+      <profile name="Annotation profile for spring-resteasy" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-resteasy" />
+      </profile>
+      <profile name="Annotation profile for tasks" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tasks" />
+      </profile>
+      <profile name="Annotation profile for tasks-jsf" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tasks-jsf" />
+      </profile>
+      <profile name="Annotation profile for tasks-rs" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tasks-rs" />
+      </profile>
+      <profile name="Annotation profile for temperature-converter" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="temperature-converter" />
+      </profile>
+      <profile name="Annotation profile for thread-racing" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thread-racing" />
+      </profile>
+      <profile name="Annotation profile for websocket-client" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="websocket-client" />
+      </profile>
+      <profile name="Annotation profile for websocket-endpoint" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="websocket-endpoint" />
+      </profile>
+      <profile name="Annotation profile for websocket-hello" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="websocket-hello" />
+      </profile>
+      <profile name="Annotation profile for wicket-war" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wicket-war" />
+      </profile>
+      <profile name="Annotation profile for xml-dom4j" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xml-dom4j" />
+      </profile>
+      <profile name="Annotation profile for xml-jaxp" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xml-jaxp" />
+      </profile>
+      <profile name="Annotation profile for jta-crash-rec" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jta-crash-rec" />
+      </profile>
+      <profile name="Annotation profile for wsat-simple" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wsat-simple" />
+      </profile>
+      <profile name="Annotation profile for wsba-coordinator-completion-simple" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wsba-coordinator-completion-simple" />
+      </profile>
+      <profile name="Annotation profile for wsba-participant-completion-simple" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wsba-participant-completion-simple" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-one-ejb" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-one-ejb" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-one-ear" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-one-ear" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-two-ejb" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-two-ejb" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-two-ear" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-two-ear" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-main-ejb" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-main-ejb" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-main-web" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-main-web" />
+      </profile>
+      <profile name="Annotation profile for ejb-multi-server-app-main-ear" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejb-multi-server-app-main-ear" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kitchensink" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-client" target="1.5" />
+      <module name="app-client-client-simple" target="1.5" />
+      <module name="app-client-ear" target="1.5" />
+      <module name="app-client-ejb" target="1.5" />
+      <module name="batch-processing" target="1.5" />
+      <module name="bean-validation" target="1.5" />
+      <module name="bean-validation-custom-constraint" target="1.5" />
+      <module name="bmt" target="1.5" />
+      <module name="cdi-alternative" target="1.5" />
+      <module name="cdi-decorator" target="1.5" />
+      <module name="cdi-injection" target="1.5" />
+      <module name="cdi-interceptors" target="1.5" />
+      <module name="cdi-portable-extension" target="1.5" />
+      <module name="cdi-stereotype" target="1.5" />
+      <module name="cdi-veto" target="1.5" />
+      <module name="cmt" target="1.5" />
+      <module name="contacts-jquerymobile" target="1.5" />
+      <module name="ejb-asynchronous" target="1.5" />
+      <module name="ejb-asynchronous-client" target="1.5" />
+      <module name="ejb-asynchronous-ejb" target="1.5" />
+      <module name="ejb-in-ear" target="1.5" />
+      <module name="ejb-in-ear-ear" target="1.5" />
+      <module name="ejb-in-ear-ejb" target="1.5" />
+      <module name="ejb-in-ear-web" target="1.5" />
+      <module name="ejb-in-war" target="1.5" />
+      <module name="ejb-multi-server" target="1.5" />
+      <module name="ejb-multi-server-app-main" target="1.5" />
+      <module name="ejb-multi-server-app-main-ear" target="1.5" />
+      <module name="ejb-multi-server-app-main-ejb" target="1.5" />
+      <module name="ejb-multi-server-app-main-web" target="1.5" />
+      <module name="ejb-multi-server-app-one" target="1.5" />
+      <module name="ejb-multi-server-app-one-ear" target="1.5" />
+      <module name="ejb-multi-server-app-one-ejb" target="1.5" />
+      <module name="ejb-multi-server-app-two" target="1.5" />
+      <module name="ejb-multi-server-app-two-ear" target="1.5" />
+      <module name="ejb-multi-server-app-two-ejb" target="1.5" />
+      <module name="ejb-multi-server-app-web" target="1.5" />
+      <module name="ejb-multi-server-client" target="1.5" />
+      <module name="ejb-remote" target="1.5" />
+      <module name="ejb-remote-client" target="1.5" />
+      <module name="ejb-remote-server-side" target="1.5" />
+      <module name="ejb-security" target="1.5" />
+      <module name="ejb-security-context-propagation" target="1.5" />
+      <module name="ejb-security-interceptors" target="1.5" />
+      <module name="ejb-security-jaas" target="1.5" />
+      <module name="ejb-security-programmatic-auth" target="1.5" />
+      <module name="ejb-throws-exception" target="1.5" />
+      <module name="ejb-throws-exception-ear" target="1.5" />
+      <module name="ejb-throws-exception-ejb" target="1.5" />
+      <module name="ejb-throws-exception-ejb-api" target="1.5" />
+      <module name="ejb-throws-exception-web" target="1.5" />
+      <module name="ejb-timer" target="1.5" />
+      <module name="greeter" target="1.5" />
+      <module name="ha-singleton-deployment" target="1.5" />
+      <module name="ha-singleton-service" target="1.5" />
+      <module name="ha-singleton-service-primary-only" target="1.5" />
+      <module name="ha-singleton-service-with-backups" target="1.5" />
+      <module name="helloworld" target="1.5" />
+      <module name="helloworld-html5" target="1.5" />
+      <module name="helloworld-jms" target="1.5" />
+      <module name="helloworld-mbean" target="1.5" />
+      <module name="helloworld-mbean-service" target="1.5" />
+      <module name="helloworld-mbean-webapp" target="1.5" />
+      <module name="helloworld-mdb" target="1.5" />
+      <module name="helloworld-mdb-propertysubstitution" target="1.5" />
+      <module name="helloworld-mutual-ssl" target="1.5" />
+      <module name="helloworld-mutual-ssl-secured" target="1.5" />
+      <module name="helloworld-rs" target="1.5" />
+      <module name="helloworld-singleton" target="1.5" />
+      <module name="helloworld-ssl" target="1.5" />
+      <module name="helloworld-ws" target="1.5" />
+      <module name="hibernate" target="1.5" />
+      <module name="inter-app" target="1.5" />
+      <module name="inter-app-appA" target="1.5" />
+      <module name="inter-app-appB" target="1.5" />
+      <module name="inter-app-shared" target="1.5" />
+      <module name="jaxrs-client" target="1.5" />
+      <module name="jaxws-addressing" target="1.5" />
+      <module name="jaxws-addressing-client" target="1.5" />
+      <module name="jaxws-addressing-service" target="1.5" />
+      <module name="jaxws-ejb" target="1.5" />
+      <module name="jaxws-ejb-client" target="1.5" />
+      <module name="jaxws-ejb-service" target="1.5" />
+      <module name="jaxws-pojo" target="1.5" />
+      <module name="jaxws-pojo-client" target="1.5" />
+      <module name="jaxws-pojo-service" target="1.5" />
+      <module name="jaxws-retail" target="1.5" />
+      <module name="jaxws-retail-client" target="1.5" />
+      <module name="jaxws-retail-service" target="1.5" />
+      <module name="jboss-logging" target="1.5" />
+      <module name="jsonp" target="1.5" />
+      <module name="jta-crash-rec" target="1.5" />
+      <module name="jts" target="1.5" />
+      <module name="jts-application-component-1" target="1.5" />
+      <module name="jts-application-component-2" target="1.5" />
+      <module name="kitchensink" target="1.8" />
+      <module name="kitchensink-angularjs" target="1.5" />
+      <module name="kitchensink-ear" target="1.5" />
+      <module name="kitchensink-ear-ear" target="1.5" />
+      <module name="kitchensink-ear-ejb" target="1.5" />
+      <module name="kitchensink-ear-web" target="1.5" />
+      <module name="kitchensink-html5-mobile" target="1.5" />
+      <module name="kitchensink-jsp" target="1.5" />
+      <module name="kitchensink-ml" target="1.5" />
+      <module name="kitchensink-ml-ear" target="1.5" />
+      <module name="kitchensink-ml-ear-ear" target="1.5" />
+      <module name="kitchensink-ml-ear-ejb" target="1.5" />
+      <module name="kitchensink-ml-ear-web" target="1.5" />
+      <module name="kitchensink-utjs-angularjs" target="1.5" />
+      <module name="kitchensink-utjs-mustache" target="1.5" />
+      <module name="logging-tools" target="1.5" />
+      <module name="mail" target="1.5" />
+      <module name="managed-executor-service" target="1.5" />
+      <module name="numberguess" target="1.5" />
+      <module name="payment-cdi-event" target="1.5" />
+      <module name="quickstart-parent" target="1.8" />
+      <module name="resteasy-jaxrs-client" target="1.5" />
+      <module name="servlet-async" target="1.5" />
+      <module name="servlet-filterlistener" target="1.5" />
+      <module name="servlet-security" target="1.5" />
+      <module name="shopping-cart" target="1.5" />
+      <module name="shopping-cart-client" target="1.5" />
+      <module name="shopping-cart-server" target="1.5" />
+      <module name="shrinkwrap-resolver" target="1.5" />
+      <module name="spring-greeter" target="1.5" />
+      <module name="spring-kitchensink-asyncrequestmapping" target="1.5" />
+      <module name="spring-kitchensink-basic" target="1.5" />
+      <module name="spring-kitchensink-controlleradvice" target="1.5" />
+      <module name="spring-kitchensink-matrixvariables" target="1.5" />
+      <module name="spring-kitchensink-springmvctest" target="1.5" />
+      <module name="spring-petclinic" target="1.5" />
+      <module name="spring-resteasy" target="1.5" />
+      <module name="tasks" target="1.5" />
+      <module name="tasks-jsf" target="1.5" />
+      <module name="tasks-rs" target="1.5" />
+      <module name="temperature-converter" target="1.5" />
+      <module name="thread-racing" target="1.5" />
+      <module name="websocket-client" target="1.5" />
+      <module name="websocket-endpoint" target="1.5" />
+      <module name="websocket-hello" target="1.5" />
+      <module name="wicket-war" target="1.5" />
+      <module name="wildfly-deltaspike-authorization" target="1.5" />
+      <module name="wildfly-deltaspike-beanbuilder" target="1.5" />
+      <module name="wildfly-deltaspike-projectstage" target="1.8" />
+      <module name="wildfly-helloworld-classfiletransformers" target="1.5" />
+      <module name="wildfly-helloworld-rf" target="1.5" />
+      <module name="wildfly-hibernate4" target="1.5" />
+      <module name="wildfly-wicket-ear-ear" target="1.5" />
+      <module name="wildfly-wicket-ear-ejb" target="1.5" />
+      <module name="wildfly-wicket-ear-parent" target="1.5" />
+      <module name="wildfly-wicket-ear-war" target="1.5" />
+      <module name="wsat-simple" target="1.5" />
+      <module name="wsba-coordinator-completion-simple" target="1.5" />
+      <module name="wsba-participant-completion-simple" target="1.5" />
+      <module name="xml-dom4j" target="1.5" />
+      <module name="xml-jaxp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kitchensink" options="-Xlint:unchecked" />
+    </option>
+  </component>
+</project>
